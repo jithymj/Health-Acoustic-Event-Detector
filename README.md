@@ -6,14 +6,14 @@ This project implements an acoustic event detection system for cough and sneeze 
 ```text
 Health-Acoustic-Event-Detector/
 ├── models/
-│   └── ast_models.py
 ├── python files/
-│   ├── HAED.py
-│   └── SSAST_finetune.py
-├── download_dataset.py
-├── download_models.py
+├── .gitattributes
+├── .gitignore
+├── DataAugmentation.ipynb
+├── Data_Preprocessing.ipynb
 ├── README.md
-└── .gitignore
+├── download_dataset.py
+└── download_models.py
 ```
 ##  Model Architecture
 
