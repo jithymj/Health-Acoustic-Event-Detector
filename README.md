@@ -2,12 +2,6 @@
 
 This project implements an acoustic event detection system for cough and sneeze classification using SSAST.
 
-##  Model Architecture
-
-- Pretrained Model: [SSAST-Base-Patch-400](https://drive.google.com/file/d/19mk5EPrfhFqtV2h1wx9eflYQr4SCqECs/view?usp=drive_link)
-- Fine-tuned Model: [best_ssast_model.pth](https://drive.google.com/file/d/1O1L5r89LEm3pylf6uzkH90j6pG3pzk4s/view?usp=drive_link)
-
-##  Download Models
 ## Project Structure
 ```text
 Health-Acoustic-Event-Detector/
@@ -19,10 +13,16 @@ Health-Acoustic-Event-Detector/
 ├── download_models.py
 ├── README.md
 └── .gitignore
+```
+##  Model Architecture
 
-```markdown
+- **Pretrained Model**: [SSAST-Base-Patch-400](https://drive.google.com/file/d/19mk5EPrfhFqtV2h1wx9eflYQr4SCqECs/view?usp=drive_link)
+- **Fine-tuned Model**: [best_ssast_model.pth](https://drive.google.com/file/d/1O1L5r89LEm3pylf6uzkH90j6pG3pzk4s/view?usp=drive_link)
+
 ##  Download Models
-Run the following command to download the model files:
-
+Run the following command to download the model files from Google Drive:
 ```bash
 python download_models.py
+
+
+
