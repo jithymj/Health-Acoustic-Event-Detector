@@ -9,14 +9,20 @@ This project implements an acoustic event detection system for cough and sneeze 
 
 ##  Download Models
 ## Project Structure
+```text
 Health-Acoustic-Event-Detector/
 ├── models/
-│ └── ast_models.py
+│   └── ast_models.py
 ├── python files/
-│ ├── HAED.py
-│ └── SSAST_finetune.py
+│   ├── HAED.py
+│   └── SSAST_finetune.py
 ├── download_models.py
 ├── README.md
 └── .gitignore
+
+```markdown
+##  Download Models
+Run the following command to download the model files:
+
 ```bash
 python download_models.py
